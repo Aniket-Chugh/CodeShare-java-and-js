@@ -13,7 +13,7 @@ function test() {
         console.log(localVar);  // 20
         console.log(blockVar);  // 30
     }
-    console.log(blockVar);      // ReferenceError
+    console.log(blockVar);      
 }
 
 test();
